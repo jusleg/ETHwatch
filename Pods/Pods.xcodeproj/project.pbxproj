@@ -1,0 +1,1432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010BD46905242F598E8A67456F308FF1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */; };
+		02F69EC463991685E57FB198BE5EA293 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */; };
+		0737E03F0041531DD869641474337BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		0837DB6573A57A955A8B9D7C2B66E445 /* Pods-EthWatchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C46A3D8A0557245B62A401425220578C /* Pods-EthWatchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C6DB668CBF8C90986FDEB2D2824E087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		0EA2D68723046E88A835CD79122D7129 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */; };
+		1183054A4E80ECD21C82FD6A8F5DB434 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */; };
+		138EECA24C779A3F87BA32C34C5D92C4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */; };
+		14C60146633CFEB6CCC281698EBCCFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		1B5244807103C3D778BE55C0F0915F0C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */; };
+		2FFFC984E0EF9C18C6F2586D68912930 /* Pods-EthWatch WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2005423600200BD418C63D82401E246 /* Pods-EthWatch WatchKit Extension-dummy.m */; };
+		38FE108700355287567770F00BA66DA1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */; };
+		454699CFEFC4E92B51EB2E61D4E9B2D9 /* Pods-EthWatch WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9D913F6A54F13D7E6DECCE6F12D635 /* Pods-EthWatch WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C9B8FEB9086EEA463E5F1ACEEB8826 /* Pods-EthWatchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628832F55E6237991023FE63FD674E7B /* Pods-EthWatchTests-dummy.m */; };
+		5587525C4D46DD636B0CD7C50CAF4D4F /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */; };
+		559059C20E5B065E22DFB34843016D5B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */; };
+		57C3894E51B27247DF477F3EF31C4AF3 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */; };
+		68EDBD9ABE0EF2790896B161540174FA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */; };
+		68F2E7914EE808D56A7D20876580AABC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */; };
+		69CB1361DDE2DD7B27A169FBA2AE4D56 /* Pods-EthWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B605B31FF011491A8AD171005BADA8A1 /* Pods-EthWatch-dummy.m */; };
+		69F4F915A15C995968FDB7FF4D4C1D1F /* Pods-EthWatchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB175FA726E4EDEFD82D772639ECA0D /* Pods-EthWatchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E60E942768C32025523F7803A6BD06E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */; };
+		7192C12ECE6771B8D3BCB047087DC08A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */; };
+		72E147D6EDC5149CBE0CA35DC02502AB /* Pods-EthWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1FE4A9C42D8423FD10FD692830CC76 /* Pods-EthWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A9E5367F0D062C3E823CDFE2B2FEAE /* Alamofire-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 956513EDDE145CFFA0750A4480012F56 /* Alamofire-iOS-dummy.m */; };
+		7FD48130E777EFF5427A469F5D4728C8 /* Pods-EthWatch WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83583BE1FBB5EF3F1D402EB1C2586BF4 /* Pods-EthWatch WatchKit App-dummy.m */; };
+		831153730FED0C80AFDA8A3656A3E644 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */; };
+		8729DDC0684EB6F2E4BF895307D6CD27 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */; };
+		8E66A01E12E5FEA5214DD8557D5916AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */; };
+		90F22579553D21F76ED254DD036EA50C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */; };
+		9116364957143F453B44022F20A00B4A /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */; };
+		94887B65BF2F4A4214E9CCBF571023E9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */; };
+		99C5E180CE93F911AE909EE7F07D6386 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */; };
+		A9D3A51ABE6BADA94E9701BC53A448CE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */; };
+		ADC3C2EAC67C2C70A9B5042126A96FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */; };
+		B20449E1C354BF86CBA95B380A59B81F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */; };
+		B4715EBA4733A766A370619F3EDD39FB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */; };
+		B5FEAB981ABD3B86C6E277DB4B723D3E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */; };
+		BFBCC2BBD64C8094D8A53398467A3C70 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */; };
+		C16DFC1F69B5D2454F9642D4EE6189D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */; };
+		C2FB15FB93D6C16AE1BCD2388043E0D5 /* Alamofire-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E6AFADA8701BC1F902C7F1B8D91D84 /* Alamofire-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65878333A6BE87BDE8C0BAE9BEB7346 /* Pods-EthWatch WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF84B62353F39492F277D5BEFF100887 /* Pods-EthWatch WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0651102F2A20F1B5B3B79AFA110F4DE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */; };
+		D0ACA3ACF3D4758341EBD4D4F51E85C9 /* Alamofire-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B13A476CB66EF798861E8D63D229AA /* Alamofire-watchOS-dummy.m */; };
+		D135F8E61291D372D00282A7F33A5F27 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */; };
+		DE3954627D645517067850B275D6AFA7 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */; };
+		DEF152F076F6D7C08B04902728A6BB39 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */; };
+		E4BC81E87EC921CF23D483E8D5240F10 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */; };
+		E65F8EEC6AECDB63A6D20FF63122B748 /* Alamofire-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7AA4E835B90F3111796396C053FC05 /* Alamofire-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9EBECF463467F0379301A1C0A5B3547 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */; };
+		EFA0623B39E113637ABD84DD9742F236 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */; };
+		F2883ADCDDD7D23D1B8AE92F3976788C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */; };
+		F3C7364D274C7349E6B092ECEC2BFBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		F6084D63E8E631FDC9EC237E4D4A8B67 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */; };
+		FC26DFB9BB33CAF8F94F4EE5BF1F2C6D /* Pods-EthWatchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B82D2380757DDDE27B73DFCE65D24379 /* Pods-EthWatchUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A854CF164AF6B9A650A340729C60D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063E3C59C1B7382B70A98D5EF8052B8D;
+			remoteInfo = "Alamofire-watchOS";
+		};
+		8EC5925C53D520BFADF844D3A13BAEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063E3C59C1B7382B70A98D5EF8052B8D;
+			remoteInfo = "Alamofire-watchOS";
+		};
+		97D290F6F5436863C0EE404C67BEC721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C69EB624EC8137588D9568F2E11964;
+			remoteInfo = "Alamofire-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012175CAB5E969AA661D791C4E3B0165 /* Pods-EthWatch WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		02FB65ACE36B709955E2CE7B69FA4ACD /* Pods-EthWatchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EthWatchTests.modulemap"; sourceTree = "<group>"; };
+		03BDBA0183299C7C867AA787A23E623F /* Pods-EthWatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		04F2C9D6BF1C38B31FD860D13473E70F /* Pods-EthWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C7AA4E835B90F3111796396C053FC05 /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
+		0D7FC3F494CCD9BCB7DB6DFAA01607E4 /* Alamofire-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-prefix.pch"; sourceTree = "<group>"; };
+		101021C47B96F9CA90D14480EB76E74A /* Alamofire-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-iOS.xcconfig"; sourceTree = "<group>"; };
+		12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		16C03EC8587F39336B7617C2CFE7D380 /* Pods_EthWatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthWatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1F1CF6A07EBE11011DA75470510E46E6 /* Pods-EthWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F7CC09598633F9D8DAAA2716523B09A /* Pods-EthWatch WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthWatch WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		212BA596A7224A3C31A88EA559C56A55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259F1550051EBF61B7BB7B8DC4CBBCF3 /* Pods-EthWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthWatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		2E3992DB50FAE9CB964DB62657347DD4 /* Pods-EthWatch WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthWatch WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E8FC830AD06C756120A859B6B696D98 /* Pods-EthWatchUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatchUITests-resources.sh"; sourceTree = "<group>"; };
+		2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		305AE1D1FD2C18DEDC157B2C2969A308 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		389CB4DE2DF11284667EFA10E90DE30B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E7C8A97E308EE3E62D5D5EC9E0FF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB175FA726E4EDEFD82D772639ECA0D /* Pods-EthWatchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthWatchTests-umbrella.h"; sourceTree = "<group>"; };
+		3C2860FF6B0528005B5649494F1BAD80 /* Pods-EthWatchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthWatchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		409AA5D1D3DC39A5E60369AB0BE03CD9 /* Pods_EthWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthWatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		51AE0EA43096C7F06C6D319841E9F772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557683446378E23D9DCA6E1E83009A60 /* Pods-EthWatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		5B2A1D492B462BED6C5B398FC10ED055 /* Pods-EthWatch WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		5FF8D7E07540F7B0748E8052473F8E4B /* Pods-EthWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EthWatch.modulemap"; sourceTree = "<group>"; };
+		628832F55E6237991023FE63FD674E7B /* Pods-EthWatchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthWatchTests-dummy.m"; sourceTree = "<group>"; };
+		64CF0C3E8E6BD35B2655C1F8EAF47390 /* Pods-EthWatch WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		697717E3872A82B6FFB2FFA355784B24 /* Pods-EthWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch.release.xcconfig"; sourceTree = "<group>"; };
+		6D0FCB1E6F9B45CFD7915CFA9425C401 /* Pods-EthWatchTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatchTests-frameworks.sh"; sourceTree = "<group>"; };
+		6DB5540901053C9932BB967D4DB965AD /* Pods-EthWatch WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthWatch WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		70BE18A8E070E392F5088A62E7AA801D /* Pods_EthWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C07CB5627D8845FE6D18D772C690A52 /* Pods-EthWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		83062DB545093E24654FD21EAD922570 /* Pods-EthWatchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EthWatchUITests.modulemap"; sourceTree = "<group>"; };
+		83583BE1FBB5EF3F1D402EB1C2586BF4 /* Pods-EthWatch WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthWatch WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		8A8FB1F01BD2578D6EC106189678F7DF /* Pods-EthWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1FE4A9C42D8423FD10FD692830CC76 /* Pods-EthWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthWatch-umbrella.h"; sourceTree = "<group>"; };
+		906354841241BAF8645F9556198D3963 /* Pods-EthWatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95266F6B5312043CF97D683E5657D348 /* Pods-EthWatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		956513EDDE145CFFA0750A4480012F56 /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
+		98409ADD928FB84B1CC5DE183321D712 /* Pods_EthWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		995644309B64AA97F76D7BA8E285E082 /* Pods-EthWatchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthWatchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EEC59B544953AAAAE2246715A40F73B /* Pods-EthWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A121BF77493C81AA8E27F5E6C6446DEC /* Pods-EthWatch WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A3FD46C22E07A5C411CD7E6C6C64B5ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A689A866903E044C6D2BD780F3E881FE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AF84B62353F39492F277D5BEFF100887 /* Pods-EthWatch WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthWatch WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		B10C215CC3E6702B3EB1568AA5D1BBE8 /* Pods-EthWatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch-frameworks.sh"; sourceTree = "<group>"; };
+		B1AD67C23F2BBC5391556058671B35A6 /* Pods-EthWatch WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EthWatch WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		B314B4A18891F7A84D33A3AA4875A279 /* Pods-EthWatchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthWatchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		B605B31FF011491A8AD171005BADA8A1 /* Pods-EthWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthWatch-dummy.m"; sourceTree = "<group>"; };
+		B64ADEED00FBD63C7E42369C60DAE2DD /* Alamofire-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-watchOS.xcconfig"; path = "../Alamofire-watchOS/Alamofire-watchOS.xcconfig"; sourceTree = "<group>"; };
+		B82D2380757DDDE27B73DFCE65D24379 /* Pods-EthWatchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthWatchUITests-dummy.m"; sourceTree = "<group>"; };
+		B848CB0496E8342E6EDD467AA2117134 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		BBFE540166C554A55EB4B688701240F0 /* Pods-EthWatchTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatchTests-resources.sh"; sourceTree = "<group>"; };
+		BE655F606723DFA240942B97134A71FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Alamofire-watchOS/Info.plist"; sourceTree = "<group>"; };
+		C46A3D8A0557245B62A401425220578C /* Pods-EthWatchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthWatchUITests-umbrella.h"; sourceTree = "<group>"; };
+		C5B13A476CB66EF798861E8D63D229AA /* Alamofire-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-watchOS-dummy.m"; path = "../Alamofire-watchOS/Alamofire-watchOS-dummy.m"; sourceTree = "<group>"; };
+		C8A5E58BE00723ADA4B51E736FD84ED9 /* Pods-EthWatch WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthWatch WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		CF94E1974B31814F952CB6C29AD2B297 /* Pods-EthWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFCA990F0908F6FB327A452EDF898C4A /* Pods-EthWatch WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EthWatch WatchKit App.modulemap"; sourceTree = "<group>"; };
+		D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D3E6AFADA8701BC1F902C7F1B8D91D84 /* Alamofire-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-umbrella.h"; path = "../Alamofire-watchOS/Alamofire-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		D4BFEC3DE738321194C75317BF063CD7 /* Pods-EthWatchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthWatchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		E033A4585E3CE23D6867C7617E8D15FF /* Alamofire-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Alamofire-watchOS.modulemap"; path = "../Alamofire-watchOS/Alamofire-watchOS.modulemap"; sourceTree = "<group>"; };
+		EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		F2005423600200BD418C63D82401E246 /* Pods-EthWatch WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthWatch WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F723A454320601397101F27CE5B3500C /* Alamofire-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-prefix.pch"; path = "../Alamofire-watchOS/Alamofire-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		F842F024CC912308AC12076C54BB788D /* Pods-EthWatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatch-resources.sh"; sourceTree = "<group>"; };
+		F8629B0E558FE1F0F19E52C51A113AE8 /* Pods-EthWatchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthWatchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD8365C414EB316FD7ED902DC0418F05 /* Pods_EthWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB44A6F7ADFE3E77A5FBF30580EB277 /* Alamofire-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Alamofire-iOS.modulemap"; sourceTree = "<group>"; };
+		FE9D913F6A54F13D7E6DECCE6F12D635 /* Pods-EthWatch WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthWatch WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E65631D8EA9840D64E0A58B4E79BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DB668CBF8C90986FDEB2D2824E087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EF9D1ADE18E2F4C9225C11867BAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16DFC1F69B5D2454F9642D4EE6189D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB8233C46CA8E4F6A213AB5CE4AE372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737E03F0041531DD869641474337BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2168E57204757AD51628D13B2C3C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C7364D274C7349E6B092ECEC2BFBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB2917AB0D6B0EE0F47C7605E19CDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC3C2EAC67C2C70A9B5042126A96FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC21C6A26735FA9E837B877F3DF82A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C60146633CFEB6CCC281698EBCCFA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC3EEEA927617180029BAC5379F22FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E66A01E12E5FEA5214DD8557D5916AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F1A7AEF376FEE1A2D349E333BD7A31 /* Pods-EthWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD46C22E07A5C411CD7E6C6C64B5ED /* Info.plist */,
+				83062DB545093E24654FD21EAD922570 /* Pods-EthWatchUITests.modulemap */,
+				3C2860FF6B0528005B5649494F1BAD80 /* Pods-EthWatchUITests-acknowledgements.markdown */,
+				B314B4A18891F7A84D33A3AA4875A279 /* Pods-EthWatchUITests-acknowledgements.plist */,
+				B82D2380757DDDE27B73DFCE65D24379 /* Pods-EthWatchUITests-dummy.m */,
+				F8629B0E558FE1F0F19E52C51A113AE8 /* Pods-EthWatchUITests-frameworks.sh */,
+				2E8FC830AD06C756120A859B6B696D98 /* Pods-EthWatchUITests-resources.sh */,
+				C46A3D8A0557245B62A401425220578C /* Pods-EthWatchUITests-umbrella.h */,
+				1F1CF6A07EBE11011DA75470510E46E6 /* Pods-EthWatchUITests.debug.xcconfig */,
+				CF94E1974B31814F952CB6C29AD2B297 /* Pods-EthWatchUITests.release.xcconfig */,
+			);
+			name = "Pods-EthWatchUITests";
+			path = "Target Support Files/Pods-EthWatchUITests";
+			sourceTree = "<group>";
+		};
+		26F9C39E7BC340A22D0172E36DD814C7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		28D8F63637312AC757AC226B4182666B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305AE1D1FD2C18DEDC157B2C2969A308 /* Alamofire.framework */,
+				A689A866903E044C6D2BD780F3E881FE /* Alamofire.framework */,
+				70BE18A8E070E392F5088A62E7AA801D /* Pods_EthWatch.framework */,
+				16C03EC8587F39336B7617C2CFE7D380 /* Pods_EthWatch_WatchKit_App.framework */,
+				409AA5D1D3DC39A5E60369AB0BE03CD9 /* Pods_EthWatch_WatchKit_Extension.framework */,
+				FD8365C414EB316FD7ED902DC0418F05 /* Pods_EthWatchTests.framework */,
+				98409ADD928FB84B1CC5DE183321D712 /* Pods_EthWatchUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1AD8F17F0E11A638AC47644B14DFB5 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DAABE506C502419153C2D8845A956E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E171703977ED8566407C664651745 /* Pods-EthWatch */,
+				7768B693AEDCECE2C4003330B1F58C48 /* Pods-EthWatch WatchKit App */,
+				D2F4E8811B6537BAAD7FD5A33212E4AA /* Pods-EthWatch WatchKit Extension */,
+				CF9067FC3C6B9F3C3C292E507A318D74 /* Pods-EthWatchTests */,
+				18F1A7AEF376FEE1A2D349E333BD7A31 /* Pods-EthWatchUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69F424F28F998CB5A06656DF8042A4CB /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		7768B693AEDCECE2C4003330B1F58C48 /* Pods-EthWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				212BA596A7224A3C31A88EA559C56A55 /* Info.plist */,
+				CFCA990F0908F6FB327A452EDF898C4A /* Pods-EthWatch WatchKit App.modulemap */,
+				2E3992DB50FAE9CB964DB62657347DD4 /* Pods-EthWatch WatchKit App-acknowledgements.markdown */,
+				C8A5E58BE00723ADA4B51E736FD84ED9 /* Pods-EthWatch WatchKit App-acknowledgements.plist */,
+				83583BE1FBB5EF3F1D402EB1C2586BF4 /* Pods-EthWatch WatchKit App-dummy.m */,
+				64CF0C3E8E6BD35B2655C1F8EAF47390 /* Pods-EthWatch WatchKit App-frameworks.sh */,
+				012175CAB5E969AA661D791C4E3B0165 /* Pods-EthWatch WatchKit App-resources.sh */,
+				FE9D913F6A54F13D7E6DECCE6F12D635 /* Pods-EthWatch WatchKit App-umbrella.h */,
+				906354841241BAF8645F9556198D3963 /* Pods-EthWatch WatchKit App.debug.xcconfig */,
+				557683446378E23D9DCA6E1E83009A60 /* Pods-EthWatch WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-EthWatch WatchKit App";
+			path = "Target Support Files/Pods-EthWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		7D3E171703977ED8566407C664651745 /* Pods-EthWatch */ = {
+			isa = PBXGroup;
+			children = (
+				389CB4DE2DF11284667EFA10E90DE30B /* Info.plist */,
+				5FF8D7E07540F7B0748E8052473F8E4B /* Pods-EthWatch.modulemap */,
+				9EEC59B544953AAAAE2246715A40F73B /* Pods-EthWatch-acknowledgements.markdown */,
+				259F1550051EBF61B7BB7B8DC4CBBCF3 /* Pods-EthWatch-acknowledgements.plist */,
+				B605B31FF011491A8AD171005BADA8A1 /* Pods-EthWatch-dummy.m */,
+				B10C215CC3E6702B3EB1568AA5D1BBE8 /* Pods-EthWatch-frameworks.sh */,
+				F842F024CC912308AC12076C54BB788D /* Pods-EthWatch-resources.sh */,
+				8F1FE4A9C42D8423FD10FD692830CC76 /* Pods-EthWatch-umbrella.h */,
+				8A8FB1F01BD2578D6EC106189678F7DF /* Pods-EthWatch.debug.xcconfig */,
+				697717E3872A82B6FFB2FFA355784B24 /* Pods-EthWatch.release.xcconfig */,
+			);
+			name = "Pods-EthWatch";
+			path = "Target Support Files/Pods-EthWatch";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
+				28D8F63637312AC757AC226B4182666B /* Products */,
+				5DAABE506C502419153C2D8845A956E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83BDB923C80A685FAFF4EBF63E28627E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB44A6F7ADFE3E77A5FBF30580EB277 /* Alamofire-iOS.modulemap */,
+				101021C47B96F9CA90D14480EB76E74A /* Alamofire-iOS.xcconfig */,
+				956513EDDE145CFFA0750A4480012F56 /* Alamofire-iOS-dummy.m */,
+				0D7FC3F494CCD9BCB7DB6DFAA01607E4 /* Alamofire-iOS-prefix.pch */,
+				0C7AA4E835B90F3111796396C053FC05 /* Alamofire-iOS-umbrella.h */,
+				E033A4585E3CE23D6867C7617E8D15FF /* Alamofire-watchOS.modulemap */,
+				B64ADEED00FBD63C7E42369C60DAE2DD /* Alamofire-watchOS.xcconfig */,
+				C5B13A476CB66EF798861E8D63D229AA /* Alamofire-watchOS-dummy.m */,
+				F723A454320601397101F27CE5B3500C /* Alamofire-watchOS-prefix.pch */,
+				D3E6AFADA8701BC1F902C7F1B8D91D84 /* Alamofire-watchOS-umbrella.h */,
+				BE655F606723DFA240942B97134A71FB /* Info.plist */,
+				B848CB0496E8342E6EDD467AA2117134 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire-iOS";
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F9C39E7BC340A22D0172E36DD814C7 /* iOS */,
+				69F424F28F998CB5A06656DF8042A4CB /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1AD8F17F0E11A638AC47644B14DFB5 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */,
+				3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */,
+				B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */,
+				90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */,
+				A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */,
+				D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */,
+				F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */,
+				7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */,
+				2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */,
+				2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */,
+				C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */,
+				1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */,
+				43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */,
+				D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */,
+				B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */,
+				12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */,
+				D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */,
+				83BDB923C80A685FAFF4EBF63E28627E /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CF9067FC3C6B9F3C3C292E507A318D74 /* Pods-EthWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				51AE0EA43096C7F06C6D319841E9F772 /* Info.plist */,
+				02FB65ACE36B709955E2CE7B69FA4ACD /* Pods-EthWatchTests.modulemap */,
+				995644309B64AA97F76D7BA8E285E082 /* Pods-EthWatchTests-acknowledgements.markdown */,
+				D4BFEC3DE738321194C75317BF063CD7 /* Pods-EthWatchTests-acknowledgements.plist */,
+				628832F55E6237991023FE63FD674E7B /* Pods-EthWatchTests-dummy.m */,
+				6D0FCB1E6F9B45CFD7915CFA9425C401 /* Pods-EthWatchTests-frameworks.sh */,
+				BBFE540166C554A55EB4B688701240F0 /* Pods-EthWatchTests-resources.sh */,
+				3BB175FA726E4EDEFD82D772639ECA0D /* Pods-EthWatchTests-umbrella.h */,
+				04F2C9D6BF1C38B31FD860D13473E70F /* Pods-EthWatchTests.debug.xcconfig */,
+				7C07CB5627D8845FE6D18D772C690A52 /* Pods-EthWatchTests.release.xcconfig */,
+			);
+			name = "Pods-EthWatchTests";
+			path = "Target Support Files/Pods-EthWatchTests";
+			sourceTree = "<group>";
+		};
+		D2F4E8811B6537BAAD7FD5A33212E4AA /* Pods-EthWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3A3E7C8A97E308EE3E62D5D5EC9E0FF2 /* Info.plist */,
+				B1AD67C23F2BBC5391556058671B35A6 /* Pods-EthWatch WatchKit Extension.modulemap */,
+				1F7CC09598633F9D8DAAA2716523B09A /* Pods-EthWatch WatchKit Extension-acknowledgements.markdown */,
+				6DB5540901053C9932BB967D4DB965AD /* Pods-EthWatch WatchKit Extension-acknowledgements.plist */,
+				F2005423600200BD418C63D82401E246 /* Pods-EthWatch WatchKit Extension-dummy.m */,
+				5B2A1D492B462BED6C5B398FC10ED055 /* Pods-EthWatch WatchKit Extension-frameworks.sh */,
+				A121BF77493C81AA8E27F5E6C6446DEC /* Pods-EthWatch WatchKit Extension-resources.sh */,
+				AF84B62353F39492F277D5BEFF100887 /* Pods-EthWatch WatchKit Extension-umbrella.h */,
+				95266F6B5312043CF97D683E5657D348 /* Pods-EthWatch WatchKit Extension.debug.xcconfig */,
+				03BDBA0183299C7C867AA787A23E623F /* Pods-EthWatch WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-EthWatch WatchKit Extension";
+			path = "Target Support Files/Pods-EthWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		270146F5A5D9054AF981E604EE5FB50F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454699CFEFC4E92B51EB2E61D4E9B2D9 /* Pods-EthWatch WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DB330299997DDCCD9E1025D708EFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F4F915A15C995968FDB7FF4D4C1D1F /* Pods-EthWatchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E52D885443012DDBAE7CCB5E110DA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E147D6EDC5149CBE0CA35DC02502AB /* Pods-EthWatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F1B93FE9404B21C6884518E58091FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FB15FB93D6C16AE1BCD2388043E0D5 /* Alamofire-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9161D43CC7D88710DE94173B5D7CA310 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65F8EEC6AECDB63A6D20FF63122B748 /* Alamofire-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97D385D5E78CB45A057A0AB37E822A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0837DB6573A57A955A8B9D7C2B66E445 /* Pods-EthWatchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B140F9B0024365AC6382150D341AC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65878333A6BE87BDE8C0BAE9BEB7346 /* Pods-EthWatch WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		063E3C59C1B7382B70A98D5EF8052B8D /* Alamofire-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B264765D54120716010003928FFEA54 /* Build configuration list for PBXNativeTarget "Alamofire-watchOS" */;
+			buildPhases = (
+				410719CDAE87FE93011673172D464A8E /* Sources */,
+				3D0EF9D1ADE18E2F4C9225C11867BAEB /* Frameworks */,
+				85F1B93FE9404B21C6884518E58091FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-watchOS";
+			productName = "Alamofire-watchOS";
+			productReference = A689A866903E044C6D2BD780F3E881FE /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A7CFB12874E4422BFAB60BDAF8D71FD /* Pods-EthWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8603D4C7DD1DB53A4B6296EB46615E60 /* Build configuration list for PBXNativeTarget "Pods-EthWatch" */;
+			buildPhases = (
+				CFEB96C379E19DD40E0A1BC38EB3EEF0 /* Sources */,
+				EC21C6A26735FA9E837B877F3DF82A6A /* Frameworks */,
+				4E52D885443012DDBAE7CCB5E110DA2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DC63615896E7520EBFD82217E69935 /* PBXTargetDependency */,
+			);
+			name = "Pods-EthWatch";
+			productName = "Pods-EthWatch";
+			productReference = 70BE18A8E070E392F5088A62E7AA801D /* Pods_EthWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89C69EB624EC8137588D9568F2E11964 /* Alamofire-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8642B00B4E01E477F9A0CDAB74627C /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */;
+			buildPhases = (
+				B2D1586D0DE2FAA37AF69543081E0E3D /* Sources */,
+				DB2168E57204757AD51628D13B2C3C31 /* Frameworks */,
+				9161D43CC7D88710DE94173B5D7CA310 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-iOS";
+			productName = "Alamofire-iOS";
+			productReference = 305AE1D1FD2C18DEDC157B2C2969A308 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B07BFB9723F231665E206FEB3762331 /* Pods-EthWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB12BB5D27A67D337726EB5E2F99017 /* Build configuration list for PBXNativeTarget "Pods-EthWatchTests" */;
+			buildPhases = (
+				EBBD0C361670BA0FDE00E9B4B19EDDF6 /* Sources */,
+				CAB8233C46CA8E4F6A213AB5CE4AE372 /* Frameworks */,
+				3A3DB330299997DDCCD9E1025D708EFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EthWatchTests";
+			productName = "Pods-EthWatchTests";
+			productReference = FD8365C414EB316FD7ED902DC0418F05 /* Pods_EthWatchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA8F5E2238EC5F29D60EB81910285427 /* Pods-EthWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6CAD1C63C0F36C66979E55995A1A0D /* Build configuration list for PBXNativeTarget "Pods-EthWatchUITests" */;
+			buildPhases = (
+				2D4FF1070B368AF0638BD8DF3690583D /* Sources */,
+				26E65631D8EA9840D64E0A58B4E79BCC /* Frameworks */,
+				C97D385D5E78CB45A057A0AB37E822A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EthWatchUITests";
+			productName = "Pods-EthWatchUITests";
+			productReference = 98409ADD928FB84B1CC5DE183321D712 /* Pods_EthWatchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D31A38402906666A717364EE93CD68E1 /* Pods-EthWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B226D254E847D516FFDB1B4D931D464 /* Build configuration list for PBXNativeTarget "Pods-EthWatch WatchKit Extension" */;
+			buildPhases = (
+				5EDA5EBB14F9FF9009DDC31F0C6F334C /* Sources */,
+				EBB2917AB0D6B0EE0F47C7605E19CDCA /* Frameworks */,
+				C9B140F9B0024365AC6382150D341AC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F2EE8C499AB3C9322BCBB857AC4943 /* PBXTargetDependency */,
+			);
+			name = "Pods-EthWatch WatchKit Extension";
+			productName = "Pods-EthWatch WatchKit Extension";
+			productReference = 409AA5D1D3DC39A5E60369AB0BE03CD9 /* Pods_EthWatch_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC060B9CE79DAFE4A8C432888F1A6045 /* Pods-EthWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7728EC0C54822B65370C8872C5BAC647 /* Build configuration list for PBXNativeTarget "Pods-EthWatch WatchKit App" */;
+			buildPhases = (
+				38A6D4C0299D9569031FB56E08A96659 /* Sources */,
+				EEC3EEEA927617180029BAC5379F22FD /* Frameworks */,
+				270146F5A5D9054AF981E604EE5FB50F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41753D4E72B432ADB3678F1FA6F0A41 /* PBXTargetDependency */,
+			);
+			name = "Pods-EthWatch WatchKit App";
+			productName = "Pods-EthWatch WatchKit App";
+			productReference = 16C03EC8587F39336B7617C2CFE7D380 /* Pods_EthWatch_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28D8F63637312AC757AC226B4182666B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C69EB624EC8137588D9568F2E11964 /* Alamofire-iOS */,
+				063E3C59C1B7382B70A98D5EF8052B8D /* Alamofire-watchOS */,
+				7A7CFB12874E4422BFAB60BDAF8D71FD /* Pods-EthWatch */,
+				FC060B9CE79DAFE4A8C432888F1A6045 /* Pods-EthWatch WatchKit App */,
+				D31A38402906666A717364EE93CD68E1 /* Pods-EthWatch WatchKit Extension */,
+				8B07BFB9723F231665E206FEB3762331 /* Pods-EthWatchTests */,
+				CA8F5E2238EC5F29D60EB81910285427 /* Pods-EthWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4FF1070B368AF0638BD8DF3690583D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26DFB9BB33CAF8F94F4EE5BF1F2C6D /* Pods-EthWatchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A6D4C0299D9569031FB56E08A96659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD48130E777EFF5427A469F5D4728C8 /* Pods-EthWatch WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410719CDAE87FE93011673172D464A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE108700355287567770F00BA66DA1 /* AFError.swift in Sources */,
+				D0ACA3ACF3D4758341EBD4D4F51E85C9 /* Alamofire-watchOS-dummy.m in Sources */,
+				6E60E942768C32025523F7803A6BD06E /* Alamofire.swift in Sources */,
+				9116364957143F453B44022F20A00B4A /* DispatchQueue+Alamofire.swift in Sources */,
+				68F2E7914EE808D56A7D20876580AABC /* MultipartFormData.swift in Sources */,
+				1183054A4E80ECD21C82FD6A8F5DB434 /* NetworkReachabilityManager.swift in Sources */,
+				B5FEAB981ABD3B86C6E277DB4B723D3E /* Notifications.swift in Sources */,
+				DEF152F076F6D7C08B04902728A6BB39 /* ParameterEncoding.swift in Sources */,
+				1B5244807103C3D778BE55C0F0915F0C /* Request.swift in Sources */,
+				94887B65BF2F4A4214E9CCBF571023E9 /* Response.swift in Sources */,
+				A9D3A51ABE6BADA94E9701BC53A448CE /* ResponseSerialization.swift in Sources */,
+				B4715EBA4733A766A370619F3EDD39FB /* Result.swift in Sources */,
+				90F22579553D21F76ED254DD036EA50C /* ServerTrustPolicy.swift in Sources */,
+				02F69EC463991685E57FB198BE5EA293 /* SessionDelegate.swift in Sources */,
+				0EA2D68723046E88A835CD79122D7129 /* SessionManager.swift in Sources */,
+				EFA0623B39E113637ABD84DD9742F236 /* TaskDelegate.swift in Sources */,
+				010BD46905242F598E8A67456F308FF1 /* Timeline.swift in Sources */,
+				B20449E1C354BF86CBA95B380A59B81F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDA5EBB14F9FF9009DDC31F0C6F334C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFFC984E0EF9C18C6F2586D68912930 /* Pods-EthWatch WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D1586D0DE2FAA37AF69543081E0E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D135F8E61291D372D00282A7F33A5F27 /* AFError.swift in Sources */,
+				77A9E5367F0D062C3E823CDFE2B2FEAE /* Alamofire-iOS-dummy.m in Sources */,
+				E9EBECF463467F0379301A1C0A5B3547 /* Alamofire.swift in Sources */,
+				5587525C4D46DD636B0CD7C50CAF4D4F /* DispatchQueue+Alamofire.swift in Sources */,
+				8729DDC0684EB6F2E4BF895307D6CD27 /* MultipartFormData.swift in Sources */,
+				57C3894E51B27247DF477F3EF31C4AF3 /* NetworkReachabilityManager.swift in Sources */,
+				D0651102F2A20F1B5B3B79AFA110F4DE /* Notifications.swift in Sources */,
+				831153730FED0C80AFDA8A3656A3E644 /* ParameterEncoding.swift in Sources */,
+				F6084D63E8E631FDC9EC237E4D4A8B67 /* Request.swift in Sources */,
+				138EECA24C779A3F87BA32C34C5D92C4 /* Response.swift in Sources */,
+				68EDBD9ABE0EF2790896B161540174FA /* ResponseSerialization.swift in Sources */,
+				BFBCC2BBD64C8094D8A53398467A3C70 /* Result.swift in Sources */,
+				99C5E180CE93F911AE909EE7F07D6386 /* ServerTrustPolicy.swift in Sources */,
+				7192C12ECE6771B8D3BCB047087DC08A /* SessionDelegate.swift in Sources */,
+				DE3954627D645517067850B275D6AFA7 /* SessionManager.swift in Sources */,
+				E4BC81E87EC921CF23D483E8D5240F10 /* TaskDelegate.swift in Sources */,
+				559059C20E5B065E22DFB34843016D5B /* Timeline.swift in Sources */,
+				F2883ADCDDD7D23D1B8AE92F3976788C /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEB96C379E19DD40E0A1BC38EB3EEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CB1361DDE2DD7B27A169FBA2AE4D56 /* Pods-EthWatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBD0C361670BA0FDE00E9B4B19EDDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C9B8FEB9086EEA463E5F1ACEEB8826 /* Pods-EthWatchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DC63615896E7520EBFD82217E69935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-iOS";
+			target = 89C69EB624EC8137588D9568F2E11964 /* Alamofire-iOS */;
+			targetProxy = 97D290F6F5436863C0EE404C67BEC721 /* PBXContainerItemProxy */;
+		};
+		61F2EE8C499AB3C9322BCBB857AC4943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-watchOS";
+			target = 063E3C59C1B7382B70A98D5EF8052B8D /* Alamofire-watchOS */;
+			targetProxy = 8EC5925C53D520BFADF844D3A13BAEF4 /* PBXContainerItemProxy */;
+		};
+		C41753D4E72B432ADB3678F1FA6F0A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-watchOS";
+			target = 063E3C59C1B7382B70A98D5EF8052B8D /* Alamofire-watchOS */;
+			targetProxy = 59A854CF164AF6B9A650A340729C60D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08EAC6F4C6B277117FED952D46238C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697717E3872A82B6FFB2FFA355784B24 /* Pods-EthWatch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch/Pods-EthWatch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0905C405C60EA6796BC057E6ACEC5D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101021C47B96F9CA90D14480EB76E74A /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DDD0DD019C05FC70B0C960B7824C294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF94E1974B31814F952CB6C29AD2B297 /* Pods-EthWatchUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatchUITests/Pods-EthWatchUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatchUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19228AFBA3F3711BD88377AB72F183BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64ADEED00FBD63C7E42369C60DAE2DD /* Alamofire-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		212EC56449DC09A15DB54530B7998F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95266F6B5312043CF97D683E5657D348 /* Pods-EthWatch WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch WatchKit Extension/Pods-EthWatch WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		2C7C920A2CE4BDB901253C7761AD42F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		38C08C2FCF12DEE9850F50EA972B3FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F2C9D6BF1C38B31FD860D13473E70F /* Pods-EthWatchTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatchTests/Pods-EthWatchTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatchTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E8B1F6BBFBF8F652E318B101A90D822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BDBA0183299C7C867AA787A23E623F /* Pods-EthWatch WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch WatchKit Extension/Pods-EthWatch WatchKit Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch_WatchKit_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		7329696C750C71EA6C49D7F8A0D82840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		82EAD655CC978BAC74A79445A20F55A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64ADEED00FBD63C7E42369C60DAE2DD /* Alamofire-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		8D97ACC04CF696BB6F4FEC2E7D09C843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C07CB5627D8845FE6D18D772C690A52 /* Pods-EthWatchTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatchTests/Pods-EthWatchTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatchTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2A8DB02F2B03A4EF162B1341FE89A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557683446378E23D9DCA6E1E83009A60 /* Pods-EthWatch WatchKit App.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch WatchKit App/Pods-EthWatch WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		C4D2E865EFC5734D6D7B92A6F036CD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906354841241BAF8645F9556198D3963 /* Pods-EthWatch WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch WatchKit App/Pods-EthWatch WatchKit App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch_WatchKit_App;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		CE954ADB7496B344CBED917E6D741E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101021C47B96F9CA90D14480EB76E74A /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB03FD51925383F8CD5F7AD30B0358B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1CF6A07EBE11011DA75470510E46E6 /* Pods-EthWatchUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatchUITests/Pods-EthWatchUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatchUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAB57AA86AFB042CCBE90C55E230A3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8FB1F01BD2578D6EC106189678F7DF /* Pods-EthWatch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EthWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthWatch/Pods-EthWatch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EthWatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8642B00B4E01E477F9A0CDAB74627C /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0905C405C60EA6796BC057E6ACEC5D52 /* Debug */,
+				CE954ADB7496B344CBED917E6D741E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7C920A2CE4BDB901253C7761AD42F4 /* Debug */,
+				7329696C750C71EA6C49D7F8A0D82840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6CAD1C63C0F36C66979E55995A1A0D /* Build configuration list for PBXNativeTarget "Pods-EthWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB03FD51925383F8CD5F7AD30B0358B6 /* Debug */,
+				0DDD0DD019C05FC70B0C960B7824C294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B226D254E847D516FFDB1B4D931D464 /* Build configuration list for PBXNativeTarget "Pods-EthWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212EC56449DC09A15DB54530B7998F7F /* Debug */,
+				6E8B1F6BBFBF8F652E318B101A90D822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7728EC0C54822B65370C8872C5BAC647 /* Build configuration list for PBXNativeTarget "Pods-EthWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D2E865EFC5734D6D7B92A6F036CD13 /* Debug */,
+				C2A8DB02F2B03A4EF162B1341FE89A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8603D4C7DD1DB53A4B6296EB46615E60 /* Build configuration list for PBXNativeTarget "Pods-EthWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB57AA86AFB042CCBE90C55E230A3D2 /* Debug */,
+				08EAC6F4C6B277117FED952D46238C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B264765D54120716010003928FFEA54 /* Build configuration list for PBXNativeTarget "Alamofire-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19228AFBA3F3711BD88377AB72F183BB /* Debug */,
+				82EAD655CC978BAC74A79445A20F55A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB12BB5D27A67D337726EB5E2F99017 /* Build configuration list for PBXNativeTarget "Pods-EthWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C08C2FCF12DEE9850F50EA972B3FCB /* Debug */,
+				8D97ACC04CF696BB6F4FEC2E7D09C843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

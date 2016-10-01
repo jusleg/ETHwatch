@@ -1,0 +1,6 @@
+framework module Pods_EthWatchTests {
+  umbrella header "Pods-EthWatchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

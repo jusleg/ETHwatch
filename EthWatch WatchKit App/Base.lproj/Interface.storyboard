@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--My Portfolio-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="My Portfolio" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EthWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="HhE-Sf-Bk1">
+                            <items>
+                                <label alignment="left" text="$0" id="v0F-sZ-79j">
+                                    <fontDescription key="font" type="system" pointSize="27"/>
+                                </label>
+                                <label height="1" heightAdjustment="-10" alignment="left" verticalAlignment="bottom" text="USD" id="cLa-zR-4xR"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="--" numberOfLines="0" id="imn-NG-Ne2"/>
+                        <separator alignment="left" id="eZf-Qv-4Sy"/>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="p6c-d4-KcF">
+                            <items>
+                                <label alignment="center" text="ETH" textAlignment="left" id="QAn-x5-vjx">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label width="1" alignment="center" text="LOADING..." textAlignment="center" id="eR0-4J-DMv">
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </label>
+                                <group width="1" alignment="left" id="QCt-w0-6VE">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" alpha="0.69999999999999996" text="-" id="hvQ-Fg-QGT">
+                                            <fontDescription key="font" type="system" pointSize="11"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="1" bottom="2"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="NNk-Bx-k6z">
+                            <items>
+                                <label alignment="center" text="BTC" textAlignment="left" id="1US-u4-srV">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label width="1" alignment="center" text="LOADING..." textAlignment="center" id="Dao-m7-iZ7">
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </label>
+                                <group width="1" alignment="left" id="xME-tz-0J4">
+                                    <items>
+                                        <label height="12" alignment="center" verticalAlignment="center" alpha="0.69999999999999996" text="-" id="h1v-1Z-j9w">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="1" bottom="2"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="lk8-At-znx">
+                            <items>
+                                <label alignment="center" text="LTC" textAlignment="left" id="5gk-Ly-s8J">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label width="1" alignment="center" text="LOADING..." textAlignment="center" id="ecM-BX-dnb">
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </label>
+                                <group width="1" alignment="left" id="bKg-EA-Lj5">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" alpha="0.69999999999999996" text="-" id="cDa-xr-0Ni">
+                                            <fontDescription key="font" type="system" pointSize="11"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="1" bottom="2"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="eRD-kV-ZxM">
+                            <items>
+                                <label alignment="center" text="ETC" textAlignment="left" id="NCN-0R-YYN">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <label width="1" alignment="center" text="LOADING..." textAlignment="center" id="Fdi-02-sff">
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </label>
+                                <group width="1" alignment="left" id="i3N-Zy-zWu">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" alpha="0.69999999999999996" text="-" id="QEa-sR-t17">
+                                            <fontDescription key="font" type="system" pointSize="11"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="1" bottom="2"/>
+                        </group>
+                    </items>
+                    <menu key="menu" id="ySD-3o-ffB">
+                        <items>
+                            <menuItem title="Refresh" icon="resume" id="wpf-wO-CVl">
+                                <connections>
+                                    <action selector="refreshMenu" destination="AgC-eL-Hgc" id="4av-fl-h1I"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="btcGroup" destination="NNk-Bx-k6z" id="aeF-vt-XWq"/>
+                        <outlet property="btcPercent" destination="h1v-1Z-j9w" id="MSe-C3-60s"/>
+                        <outlet property="btcPrice" destination="Dao-m7-iZ7" id="lCt-M6-y0I"/>
+                        <outlet property="etcGroup" destination="eRD-kV-ZxM" id="WvL-Rn-Oln"/>
+                        <outlet property="etcPercent" destination="QEa-sR-t17" id="yY4-SR-7Oi"/>
+                        <outlet property="etcPrice" destination="Fdi-02-sff" id="nxd-Ja-4p7"/>
+                        <outlet property="ethGroup" destination="p6c-d4-KcF" id="6cA-KI-7lC"/>
+                        <outlet property="ethPercent" destination="hvQ-Fg-QGT" id="xLQ-rY-k7M"/>
+                        <outlet property="ethPrice" destination="eR0-4J-DMv" id="j5i-ad-UUl"/>
+                        <outlet property="ltcGroup" destination="lk8-At-znx" id="Cbj-uR-ico"/>
+                        <outlet property="ltcPercent" destination="cDa-xr-0Ni" id="vKY-ug-4nd"/>
+                        <outlet property="ltcPrice" destination="ecM-BX-dnb" id="XQv-Px-T69"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="344.5"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="EthWatch_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.11778544634580612" green="0.67138141393661499" blue="0.99073749780654907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

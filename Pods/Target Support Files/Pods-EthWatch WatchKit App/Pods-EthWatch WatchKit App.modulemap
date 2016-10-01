@@ -1,0 +1,6 @@
+framework module Pods_EthWatch_WatchKit_App {
+  umbrella header "Pods-EthWatch WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
