@@ -22,7 +22,6 @@
 		D05820FB1D97796B009FF59C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05820F91D97796B009FF59C /* Interface.storyboard */; };
 		D05820FD1D97796B009FF59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05820FC1D97796B009FF59C /* Assets.xcassets */; };
 		D05821041D97796B009FF59C /* EthWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D05821031D97796B009FF59C /* EthWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D058210B1D97796B009FF59C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058210A1D97796B009FF59C /* InterfaceController.swift */; };
 		D058210D1D97796B009FF59C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058210C1D97796B009FF59C /* ExtensionDelegate.swift */; };
 		D058210F1D97796B009FF59C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058210E1D97796B009FF59C /* NotificationController.swift */; };
 		D05821111D97796B009FF59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05821101D97796B009FF59C /* Assets.xcassets */; };
@@ -765,7 +764,6 @@
 			files = (
 				D058210F1D97796B009FF59C /* NotificationController.swift in Sources */,
 				D058210D1D97796B009FF59C /* ExtensionDelegate.swift in Sources */,
-				D058210B1D97796B009FF59C /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

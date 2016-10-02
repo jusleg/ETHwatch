@@ -10,16 +10,20 @@
             <objects>
                 <controller title="My Portfolio" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="EthWatch_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="left" id="HhE-Sf-Bk1">
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="QqI-YU-PLv">
                             <items>
-                                <label alignment="left" text="$0" id="v0F-sZ-79j">
-                                    <fontDescription key="font" type="system" pointSize="27"/>
-                                </label>
-                                <label height="1" heightAdjustment="-10" alignment="left" verticalAlignment="bottom" text="USD" id="cLa-zR-4xR"/>
+                                <group width="1" alignment="left" id="HhE-Sf-Bk1">
+                                    <items>
+                                        <label alignment="left" text="$0" id="v0F-sZ-79j">
+                                            <fontDescription key="font" type="system" pointSize="26"/>
+                                        </label>
+                                        <label height="1" heightAdjustment="-8" alignment="left" verticalAlignment="bottom" text="USD" id="cLa-zR-4xR"/>
+                                    </items>
+                                </group>
+                                <label alignment="left" text="--" numberOfLines="0" id="imn-NG-Ne2"/>
                             </items>
                         </group>
-                        <label alignment="left" text="--" numberOfLines="0" id="imn-NG-Ne2"/>
-                        <separator alignment="left" id="eZf-Qv-4Sy"/>
+                        <separator alignment="left" alpha="0.59999999999999998" id="eZf-Qv-4Sy"/>
                         <group width="1" alignment="left" layout="vertical" spacing="0.0" id="p6c-d4-KcF">
                             <items>
                                 <label alignment="center" text="ETH" textAlignment="left" id="QAn-x5-vjx">
@@ -119,6 +123,8 @@
                         <outlet property="ltcGroup" destination="lk8-At-znx" id="Cbj-uR-ico"/>
                         <outlet property="ltcPercent" destination="cDa-xr-0Ni" id="vKY-ug-4nd"/>
                         <outlet property="ltcPrice" destination="ecM-BX-dnb" id="XQv-Px-T69"/>
+                        <outlet property="percentLabel" destination="imn-NG-Ne2" id="DUX-6V-WAQ"/>
+                        <outlet property="totalLabel" destination="v0F-sZ-79j" id="Xi2-GQ-xbp"/>
                     </connections>
                 </controller>
             </objects>
